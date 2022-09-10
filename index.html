@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Sorting-Visualiser</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sorting Visualiser</h1>
+        <section id="containers">
+            <div class="header_right">
+                <div class="algos">
+                    <button class="Options">Bubble</button>
+                    <button class="Options">Selection</button>
+                    <button class="Options">Insertion</button>
+                    <button class="Options">Merge</button>
+                    <button class="Options">Quick</button>
+                    <button class="Options">Heap</button>
+                </div>
+            </div>
+        </section>
+        
+        <nav>
+            <div class="navbar">
+                <br><br>
+                <input id="a_size" class="Slider" type="range" min=20 max=150 step=1 value=50>
+                <h2>Array Size</h2>
+                <input id="a_speed" class="Slider" type="range" min=1 max=10 step=1 value=5>
+                <h2>Speed of Execution</h2>
+                <button id="a_generate" class="Options"> Get a new Array! </button>
+                <br><br>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+        <div id="info_cont1">
+
+        </div>
+        <div id="array_container">
+
+        </div>
+        <div id="info_cont2">
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="./main.js"></script>
+    <script src="./visualizations.js"></script>
+    <script src="./bubble-sort.js"></script>
+    <script src="./selection-sort.js"></script>
+    <script src="./insertion-sort.js"></script>
+    <script src="./merge-sort.js"></script>
+    <script src="./quick-sort.js"></script>
+    <script src="./heap-sort.js"></script>
+</body>
+
+</html>

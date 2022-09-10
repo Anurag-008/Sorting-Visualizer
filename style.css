@@ -1,0 +1,139 @@
+body{
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+h1 {
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  font-weight: 200; 
+  font-size: 70px;
+  color: #001524;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 5px solid;
+  margin-top: 0%;
+}
+h2{
+  text-align: center;
+  color:#001524;
+}
+/* Generate new array */
+
+.Slider{
+    -webkit-appearance: none;
+    text-align: center;
+    width: 50%;
+    margin-left: 497px;
+    height: 15px;
+    background: #ECE4DB  ;
+    outline: none;
+    border: 5px solid #b5db6f;
+    border-radius: 10px;
+    
+}
+#containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#a_generate:hover {
+  transition: 0.3s;
+  background-color: #ECE4DB;
+  color: #001524;
+  text-decoration: underline;
+}
+/* Algorithms  Button*/
+.header_right .algos button {
+  margin: auto ;
+  padding: 20px 25px;
+  background-image: linear-gradient( 135deg, #FF9D6C 10%, #BB4E75 100%);
+  border-radius: 10px;
+  color: #001524;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #2E1263;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  outline: none;
+}
+#a_generate {
+  margin-left: 858px;
+  padding: 20px 25px;
+  background-image: linear-gradient( 135deg, #FF9D6C 10%, #BB4E75 100%);
+  font-size: 20px;  
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #2E1263;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  outline: none;
+}
+input{
+  margin: auto;
+  width: 50%;
+}
+.header_right{
+  margin: auto;
+}
+.header_right .algos button:hover {
+  transition: 0.3s;
+  background-color: #ECE4DB;
+  color: #14213D;
+  text-decoration: underline;
+}
+
+.header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+.header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.header_right .algos .butt_unselected:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+
+
+/* Array Bars */
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+section #Info_Cont1 {
+  padding: 20%;
+}
+
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+section #Info_Cont2 {
+  padding: 20%;
+}
+
+.hide {
+  display: none;
+}
